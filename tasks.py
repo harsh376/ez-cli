@@ -7,7 +7,7 @@ def publish(ctx):
     Builds wheel and publishes new version to PyPi repo
     """
     _build(ctx)
-    # _push(ctx)
+    _push(ctx)
 
 
 def _build(ctx):
